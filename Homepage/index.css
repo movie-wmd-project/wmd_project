@@ -297,3 +297,36 @@ top: -15%;
 font-style: normal;
 font-size: 17px;
 }
+.option{
+padding: 10px;
+top: 40px;
+position: relative;
+width: 100%;
+border: none;
+height: auto;
+background-color: rgba(28, 1, 1, 0.766);
+button{
+    position: relative;
+    padding: 10px;
+    width: 30%;
+     border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(89, 4, 4);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    
+    margin-left: 10px;
+}
+select{
+    position: relative;
+    padding: 14px;
+    top: -2px;
+    border-radius: 10px;
+    border: solid 1px red;
+    background-color: black;
+    color: white;
+    width: 15%;
+    
+    margin-left: 20px;
+}
+}
