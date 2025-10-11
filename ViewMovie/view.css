@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     height: auto;
+    
 
    
 }
@@ -18,6 +19,7 @@ body{
         opacity: 0;
     }
 }
+/*
 header{
    position: fixed;
     width: 100%;
@@ -94,83 +96,99 @@ cursor: pointer;
 background-color: rgb(130, 1, 1);
 color: aliceblue;
 border: solid 0.5px rgba(255, 255, 255, 0.075);
-}
+}*/
 .conter{
     position: relative;
-    width: 100%;
-    top: 60px;
-    height: auto;
-    overflow: hidden;
-  
+    bottom: 10%;
+    width: 90%;
+    left: 5%;
+    height: 660px;
+    
+   
+
 }
 .par{
-    position: relative;
+    position: absolute;
+    bottom: 40px;
+    left: -3%;
     width: 100%;
-    height: 100%;
-    color: #fff;
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0.128);
-}
-p,h1{
+    background-color: #000000fb;
+    box-shadow: 0px 0px 90px 90px rgba(0, 0, 0, 0.914);
 
-    position: relative;
-    max-width:34% ;
-    left: 16%;
-    bottom: -7%;
-    background-color: #ffffff16;
-    border-radius: 15px;
-    padding: 15px;
-
-}
-h1{
-
-    color: rgba(123, 0, 0, 0.819);
-    font-size: 40px;
-    font-style: normal;
-    text-shadow: 10px;
 
 }
 .photo{
 
     position: absolute;
-    width: 30%;
-    height: 53%;
-    top: 10%;
-    left: 55%;
-    border-radius: 40px;
-    box-shadow: 0px 0px 10px 10px rgba(146, 0, 0, 0.809);
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    
+    
     img{
 
-        width: 100%;
-        height: 100%;
-        border-radius: 40px;
+    width: 100%;
+    height: 100%;
+     border-radius: 30px;
 
 
     }
 
 
 }
+h1{
+    position: absolute;
+    bottom: -64px;
+    left: 5%;
+    color: #fff;
+    background-color: #00000020;
+    font-size: 40px;
+    
+}
+
 .list{
 
-    background-color: #fff;
-    color: aqua;
-   
-    display:block;
     position: relative;
-    width: 67%;
-    top: 68px;
-    left: 17%;
-    
-    
-
+    display:block;
+    width: 100%;
+    height: 500px;
+    left: 5%;
 
 }
-p{
+.sh{
 
-    padding: 10px;
-    margin-bottom: 5px;
-    border-bottom: rgba(134, 0, 0, 0.808);   
-    align-items: center; 
+    position: absolute;
+    top: -15px;
+    left: 1%;
+    width: 75%;
+   
+}
+.p2{
 
+    color: #ffffffbb;
+    font-size: 13px;
+    border-bottom:solid 2px rgba(255, 255, 255, 0.742);
+     padding-bottom: 5px;
 
+}
+.hs{
+
+    position: relative;
+    top: 40px;
+    left: 0%;
+    width: 100%;
+    height: 76%;
+
+    
+
+}
+
+.p1{
+    
+    border-bottom:solid 2px rgba(255, 255, 255, 0.742);
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 1px;
+    color: #fff;
+    width: 75%;  
 }
