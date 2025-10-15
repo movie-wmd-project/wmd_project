@@ -177,7 +177,7 @@ width:96% ;
 .hs{
 
     position: relative;
-    top: 40px;
+    top: 10px;
     left: 0%;
     width: 100%;
     height: 76%;
@@ -191,11 +191,11 @@ position: relative;
 width: 80%;
 left: 2%;
 padding: 12px;
-background-color: rgba(53, 6, 6, 0.225);
+background-color: rgba(120, 8, 8, 0.641);
 color: white;
 border: none;
 border-radius: 6px;
-margin: 5px;
+margin: 2px;
 text-align: left;
 bottom: 25px;
 }
@@ -211,10 +211,10 @@ bottom: 25px;
         width:10%;
         padding: 10px ;
         font-size: 16px;
-        border: solid 0.5px rgba(255, 0, 0, 0.296);
         border-radius: 4px;
+        border: none;
         text-align: left;
-        background-color: rgba(61, 4, 4, 0.203);
+        background-color: rgba(61, 4, 4, 0);
         color: rgb(255, 255, 255);
     }
     p{

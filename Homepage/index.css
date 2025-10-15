@@ -152,7 +152,7 @@ width: 40%;
 position: relative;
 left: 5%;
 }
-.title .shadow .login ,.sign{
+.title .shadow .sign{
 width: 20%;
 top: 20%;
 position: relative;
@@ -161,6 +161,17 @@ padding: 10px;
 background-color: rgb(69, 3, 3);
 color:white;
 border: solid 0.5px solid rgb(255, 255, 255);
+border-radius: 10px;
+}
+.login{
+width: 10%;
+top: 20%;
+position: relative;
+left: 5%;
+padding: 15px;
+background-color: rgb(0, 0, 0);
+color:white;
+border: solid 1px red;
 border-radius: 10px;
 }
 
@@ -254,23 +265,54 @@ background-repeat: no-repeat;
     display:inline;
     column-gap: 3;
     top: 20px;
+    
+}
+.tit-info{
+position: relative;
+width: 96%;
+left: 2%;
+margin-top: 40px;
+padding: 2px;
+background-color: rgb(81, 4, 4);
+border-radius: 10px;
+color: white;
+border: none;
+animation: infinite 5s tit;
+}
+@keyframes tit {
+    0%{
+ background-color: rgb(99, 6, 6);
+    }30%{
+background-color: rgba(3, 117, 113, 0.429);
+    }70%{
+background-color: rgba(165, 6, 6, 0.623);
+    }100%{
+background-color: rgba(83, 3, 3, 0.489);
+    }
+}
+.showall{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 90%;
+    width: auto;
+    top: 45%;
 }
 .contener-movie .box-movie-title-contener{
   position: relative;
     width: 20%;
-    min-height: 450px;
+    height: 350px;
     border-radius: 15px;
     border: solid 0.5px rgba(241, 0, 0, 0.442);
     left:0% ;
     top: 25%;
-   margin: 35px;
+   margin: 25px;
     overflow: hidden;
     display: inline-block;
 }
 .box-movie-title-contener img{
 position: relative;
 width: 100%;
-height: 100%;
+height: auto;
 overflow: hidden;
 }
 .box-movie-title-contener .info-movie{
@@ -281,84 +323,44 @@ overflow: hidden;
     z-index: 3;
     box-shadow: 0px 0px 90px 90px rgba(0, 0, 0, 0.886);
     top: 75%;
-    h1{
-        position: relative;
-        font-size: 18px;
-        left: 10px;
-        top: 20px;
-        color: white;
+    color: white;
+
+.Riteng{
+    position: absolute;
+    left: 2%;
+    width: auto;
+    font-size: 20px;
+    top: 30%;
+    color: gold;
+    border: none;
+    i{
+color: gold;
     }
-    p{
-        position: relative;
-        top: 25px;
-        bottom: -4px;
-        font-size: 10px;
-        color: white;
-        display: inline;
-        width: auto;
-        left: 10px;
-        margin-right: 30px;
-    
-    }
+}
 
 }
-.play-m{
+.info-movie .play-m{
     position: absolute;
-    padding: 3px;
-    width: 40%;
-    border-radius: 10px;
+    width: auto;
+    font-size: 60px;
+    top: -60%;
+    left: -2%;
+    padding: 10px;
+    background-color: rgba(7, 7, 7, 0);
     border: none;
-    font-size: 20px;
-    top: -48%;
-    left: -5%;
-    font-size: 70px;
-    background-color: rgba(86, 4, 4, 0);
     color: white;
-    a{
-        position: relative;
+    i{
         color: white;
-        text-decoration: none;
-        width: 100%;
-        padding: 10px;
     }
 }
-.info-movie .minet{
-position: absolute;
-left: 30%;
-top: -15%;
-font-style: normal;
-font-size: 17px;
-}
-.option{
-padding: 10px;
-top: 40px;
-position: relative;
-width: 100%;
-border: none;
-height: auto;
-background-color: rgba(28, 1, 1, 0.766);
-button{
-    position: relative;
-    padding: 10px;
-    width: 30%;
-     border: solid 1px rgb(0, 0, 0);
-    background-color: rgb(89, 4, 4);
+.info-movie .name-mobie{
+    position: absolute;
+    width: auto;
+    font-size: 25px;
+    top: -55%;
+    left: 35%;
+    border: none;
     color: white;
-    border-radius: 10px;
-    font-size: 20px;
-    
-    margin-left: 10px;
+
 }
-select{
-    position: relative;
-    padding: 14px;
-    top: -2px;
-    border-radius: 10px;
-    border: solid 1px red;
-    background-color: black;
-    color: white;
-    width: 15%;
-    
-    margin-left: 20px;
-}
-}
+
