@@ -66,6 +66,7 @@ header li{
     display: inline;
     width: 40%;
     list-style: none;
+    background-color: none;
 }
 .logo-name .namesite{
 position: absolute;
@@ -95,7 +96,7 @@ width: auto;
 top: 10px;
 margin-left: 10px;
 font-size: 16px;
-background-color: black;
+background-color: rgba(0, 0, 0, 0);
 color: aliceblue;
 border: none;
 }
@@ -208,6 +209,28 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 }
+#pl{
+position: absolute;
+top: 20%;
+left: 60%;
+font-size: 30px;
+color: white;
+animation: topanimation infinite 7s;
+}
+@keyframes topanimation {
+50%{
+top: 20%;
+left: 76%;
+rotate: 195deg;   
+    }90%{
+top: 20%;
+left: 90%;
+rotate: 345deg;  
+    }100%{
+     top: 20%;
+left: 60%;   
+    }
+}
 .info-movie{
     position: absolute;
     width: 100%;
@@ -261,35 +284,35 @@ background-repeat: no-repeat;
 .contener-movie{
     position: relative;
     width: 100%;
-    height: auto;
-    display:inline;
-    column-gap: 3;
+    min-height: auto;
+    display: flex;
     top: 20px;
-    
+   overflow-x: auto;
+   overflow-y: hidden; 
+    animation: spin 5s infinite linear;
+
+}
+.contener-movie::-webkit-scrollbar{
+    display: none;
 }
 .tit-info{
 position: relative;
 width: 96%;
 left: 2%;
+height: auto;
+padding: 1px;
 margin-top: 40px;
-padding: 2px;
-background-color: rgb(81, 4, 4);
+background-color: rgba(0, 0, 0, 0);
 border-radius: 10px;
 color: white;
 border: none;
 animation: infinite 5s tit;
+h1{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+left: 0%;
 }
-@keyframes tit {
-    0%{
- background-color: rgb(99, 6, 6);
-    }30%{
-background-color: rgba(3, 117, 113, 0.429);
-    }70%{
-background-color: rgba(165, 6, 6, 0.623);
-    }100%{
-background-color: rgba(83, 3, 3, 0.489);
-    }
 }
+
 .showall{
     position: absolute;
     color: rgb(255, 255, 255);
@@ -299,15 +322,48 @@ background-color: rgba(83, 3, 3, 0.489);
 }
 .contener-movie .box-movie-title-contener{
   position: relative;
-    width: 20%;
-    height: 350px;
+    min-width: 20%;
+    max-height: 30%;
     border-radius: 15px;
     border: solid 0.5px rgba(241, 0, 0, 0.442);
     left:0% ;
-    top: 25%;
-   margin: 25px;
+    top: 5%;
+    margin: 20px;
     overflow: hidden;
-    display: inline-block;
+   
+}
+#c1{
+animation: c1 20s linear infinite;
+}
+#c2{
+animation: c2 20s linear infinite;
+}
+#c3{
+animation: c3 20s linear infinite;
+}
+@keyframes c1 {
+    0%{
+transform: translateX(0);
+    }100%{
+transform: translateX(-10%);
+
+    }
+}
+@keyframes c2 {
+    0%{
+transform: translateX(10%);
+    }100%{
+transform: translateX(0);
+
+    }
+}
+@keyframes c3 {
+    0%{
+transform: translateX(0);
+    }100%{
+transform: translateX(-10%);
+
+    }
 }
 .box-movie-title-contener img{
 position: relative;
@@ -318,10 +374,10 @@ overflow: hidden;
 .box-movie-title-contener .info-movie{
     position: absolute;
     width: 100%;
-    height: 30%;
-    background-color: rgba(0, 0, 0, 0.886);
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.942);
     z-index: 3;
-    box-shadow: 0px 0px 90px 90px rgba(0, 0, 0, 0.886);
+    box-shadow: 0px 0px 90px 90px rgba(0, 0, 0, 0.942);
     top: 75%;
     color: white;
 
@@ -330,7 +386,7 @@ overflow: hidden;
     left: 2%;
     width: auto;
     font-size: 20px;
-    top: 30%;
+    top: 90%;
     color: gold;
     border: none;
     i{
@@ -343,7 +399,7 @@ color: gold;
     position: absolute;
     width: auto;
     font-size: 60px;
-    top: -60%;
+    bottom: 75%;
     left: -2%;
     padding: 10px;
     background-color: rgba(7, 7, 7, 0);
@@ -357,10 +413,11 @@ color: gold;
     position: absolute;
     width: auto;
     font-size: 25px;
-    top: -55%;
-    left: 35%;
+    bottom: 80%;
+    left: 30%;
     border: none;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
