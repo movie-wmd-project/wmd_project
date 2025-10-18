@@ -24,6 +24,7 @@ header{
     height: 60px;
     background-color: rgba(14, 1, 1, 0.516);
     color: white;
+    backdrop-filter: blur(7px);
     z-index: 10;
 }
 .menu-b{
@@ -50,9 +51,9 @@ header{
 }
 .logo-name{
     position: relative;
-
     width: 30%;
     height: 100%;
+    background-color: none;
     img{
         position: relative;
         top: 5%;
@@ -351,9 +352,9 @@ transform: translateX(-10%);
 }
 @keyframes c2 {
     0%{
-transform: translateX(10%);
+transform: translateX(-10%);
     }100%{
-transform: translateX(0);
+transform: translateX(0%);
 
     }
 }
@@ -421,3 +422,68 @@ color: gold;
 
 }
 
+.contener-catigory{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline;
+    margin-top: 40px;
+    overflow: hidden;
+
+}
+.box-catigory{
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+    left: 50px;
+    overflow: hidden;
+    border:none ;
+    border-radius: 10px;
+    p{
+        position: relative;
+        z-index: 4;
+        top: 65%;
+        left: 15px;
+        color: white;
+    }
+
+}
+#im-c{
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width:100%;
+    height: auto;
+    z-index: 0;
+}
+.box-catigory #shadow-c{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.889);
+    z-index: 1;
+   bottom: 0%;
+    box-shadow:  0px 0px 90px 90px  rgba(0, 0, 0, 0.889);
+}
+.r-catigory{
+position: relative;
+z-index: 2;
+color: white;
+top: 66%;
+left: 15px;
+font-size: 25px;
+}
+#icon-catigore{
+    position: absolute;
+    z-index: 5;
+    bottom: 4%;
+    font-size: 30px;
+    left: 84%;
+    color: white;
+}
+#im-c:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
