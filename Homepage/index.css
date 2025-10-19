@@ -374,7 +374,9 @@ left: 0%;
 .contener-movie .box-movie-title-contener{
   position: relative;
     min-width: 20%;
+    max-width: 20%;
     max-height: 30%;
+    min-height: 30%;
     border-radius: 15px;
     border: solid 0.5px rgba(241, 0, 0, 0.442);
     left:0% ;
@@ -513,4 +515,68 @@ font-size: 25px;
 #im-c:hover{
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+
+.contener-list{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    overflow: hidden;
+
+}
+.box-list{
+position: relative;
+display: inline-block;
+width: 20%;
+overflow: hidden;
+height: 300px;
+margin: 30px;
+left: 20px;
+border: none;
+border-radius: 8px;
+img{
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+}
+.info-list{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-color:  rgba(0, 0, 0, 0.942);
+    box-shadow: 0px 0px 90px 90px rgba(0, 0, 0, 0.942);
+    bottom: 0%;
+    z-index: 4;
+    h1{
+        position:relative;
+        display: block;
+        width: auto;
+        bottom: 60%;
+        left: 5px;
+        color: white;
+    }
+    p{
+       position:relative;
+        display: block;
+        width: auto;
+        bottom: 85%;
+        left: 10px;
+        font-size: 19px; 
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    }
+    i{
+        position: absolute;
+        left: 80%;
+        top: 30%;
+        font-size: 35px;
+        color: white;
+    }
 }

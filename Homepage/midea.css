@@ -1,0 +1,75 @@
+@media (max-width:600px){
+.contener-movie .box-movie-title-contener{
+  position: relative;
+    min-width: 40%;
+    max-width: 40%;
+    max-height: 60%;
+    min-height: 60%;
+}
+.box-movie-title-contener .info-movie{
+left: -5%;
+.minet{
+    font-size: 9px;
+
+}
+.Riteng{
+    position: absolute;
+    left: 55%;
+    width: auto;
+    font-size: 10px;
+    top: 30px;
+
+}
+.play-m{
+    font-size: 35px;
+    left: 5px;
+}
+.name-mobie{
+    font-size: 13px;
+    left: 40%;
+}
+}
+
+
+
+
+}
+
+/* --------------tablet---------------------------- */
+@media (min-width:600px) and (max-width:1200px){
+.contener-movie .box-movie-title-contener{
+  position: relative;
+    min-width: 40%;
+    max-width: 40%;
+    max-height: 50%;
+    min-height: 50%;
+}
+.box-movie-title-contener .info-movie{
+
+.minet{
+    font-size: 14px;
+
+}
+.Riteng{
+    position: absolute;
+    right: 1%;
+    width: auto;
+    font-size: 20px;
+   bottom: 2%;
+
+}
+.play-m{
+    font-size: 55px;
+    left: 0px;
+
+}
+.name-mobie{
+    font-size: 29px;
+    left: 40%;
+}
+}
+
+
+
+
+}
