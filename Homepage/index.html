@@ -9,41 +9,64 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<div class="contener">
-<!-- header  -->
-        <header>
+      <nav>
             <div class="logo-name">
-                    <img src="../images/logo.png" alt="">
-                    <!-- <h1 class="namesite">WG Site</h1> -->
+                <img src="../images/logo.png" alt="">
+                <!-- <h1 class="namesite">WG Site</h1> -->
             </div>
 
             <div class="menu">
                 <ul>
-                    <li><button class="b-header">Home</button></li>
-                    <li><button>About</button></li>
-                    <li><button>Setting</button></li>
-                    <li><button>Contact</button></li>
+                    <li><a href="#" class="b-header">Home</a></li>
+                    <li><a href="#c1">Movies</a></li>
+                    <li><a href="#contener-list">List</a></li>
+                    <li><a href="#contener-catigory">Category</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#top">Top</a></li>
                 </ul>
             </div>
             <div class="menu-b">
                  <button class="minu-sign">Sign</button>
-                 <i class="fa-solid fa-bars"></i>
+                 <i class="fa-solid fa-bookmark" id="Favorate" title="Favorate List"></i>
+                 <i id="open-menu" class="fa-solid fa-bars"></i>
             </div>
            
-        </header>
+        </nav>
+        
+<menu id="menu-a">
+<button id="b-m-c"><i id="clos_menu"  class="fa-solid fa-bars"></i></button>
+<div class="profile-minu">
+    <img src="../images/983569.jpg" alt="">
+    <b>walid ghazi</b>
+</div><br>
+<div class="list-minu">
+   <br><hr>
+<ul>
+    <li><b>Home </b><i class="fa-solid fa-house"></i>  </li>
+    <li><b>Top </b><i class="fa-solid fa-house"></i>  </li>
+    <li><b>Movie </b><i class="fa-solid fa-house"></i>  </li>
+    <li><b>List</b><i  class="fa-solid fa-list-ol"></i> </li>
+    <li><b>Catigore</b><i class="fa-solid fa-list"></i>  </li>
+    <li>About</li>
+</ul>
+</div>
+</menu>
 
+    <div class="contener">
+        <!-- header  -->
+  
     
 <div class="title">
     <div class="shadow">
         <br><br>
         <h1>Welcome To Site Moves</h1>
         <i id="pl" class="fa-solid fa-play"></i>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit psum dolor sit amet consectetur adipisicing elit. Corporis, beatae eveniet iusto fuga similique molestiae consequatur ea tenetur cupiditate animi? Ullam exercitationem corporis architecto officiis aspernatur aliquam. Voluptate, repellat explicabo.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit psum dolor sit amet consectetur adipisicing elit. Corporis, beatae eveniet iusto fuga similique molestiae consequatur ea tenetur cupiditate animi4 Ullam exercitationem corporis architecto officiis aspernatur aliquam. Voluptate, repellat explicabo.</p>
         <button class="login">Login</button>
         <!-- <button class="sign">Sign</button> -->
     </div>
-    <div class="top">
-        <h1>Top 3  Movie From Reting</h1>
+    <div id="top" class="top">
+        <h1>Top 3  Movie From WMD Site</h1>
          <div class="box-movie-title">
             <img src="../images/thelord.jpg" alt="">
             <div class="info-movie">
@@ -88,6 +111,19 @@
 </div>
 <div id="c1"  class="contener-movie">
 <!--box in javascript-->
+ <div class="box-movie-title-contener">
+            <i id="sv" class="fa-solid fa-bookmark"></i>
+             <img src="../images/one.JPG" alt="">
+             <div class="info-movie">
+                 <h1 class="name-mobie">The Godfather</h1> <br>
+                 <button id="play-m" class="play-m"><a href="../ViewMovie/viewMoie.html"> <i  class="fa-solid fa-circle-play"></a></i></button>
+                 <p class="minet"><i class="fa-solid fa-clock"></i>2h 10m</p>
+                 <p class="minet"><i class="fa-solid fa-calendar"></i>1972</p>
+                 <p class="minet"><i class="fa-solid fa-film"></i>Action</pp>
+                 <p class="Riteng"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+             </div>
+             <div class="shadow"></div>
+    </div>
 </div>
 
 <hr>
@@ -97,6 +133,7 @@
 </div>
 <div id="c2"  class="contener-movie">
 <!--box in javascript-->
+
 </div>
 <hr>
 
@@ -108,13 +145,13 @@
 <div id="c3" class="contener-movie">
 <!--box in javascript-->       
 </div>
-<hr>
+
 
 <br>
-<!--------------------Catigore------------------------>
+<!--------------------List------------------------>
 <hr><br>
 <h1 style="color: white;">List</h1>
-<div class="contener-list">
+<div id="contener-list"  class="contener-list">
 
  <div class="box-list">
     <img src="../images/983569.jpg" alt="">
@@ -172,9 +209,9 @@
 <br><hr>
 
 
-<!--------------------------List-------------------------------->
+<!--------------------------category-------------------------------->
 <h1 style="color: white;">Catigory</h1>
-<div class="contener-catigory">
+<div id="contener-catigory" class="contener-catigory">
 <!--------------------->
 <div class="box-catigory">
     <img src="../images/thelegent2.png" alt="" id="im-c">
