@@ -59,6 +59,18 @@ display: none;
     top: -10px;
  
 }
+.menu-b .search{
+    position: absolute;
+    width: 80%;
+    right: 180px;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    color: black;
+    background-color: aliceblue;
+    font-size: 17px;
+    top: 3px;
+}
 
 .profile-minu{
     position: absolute;
@@ -206,6 +218,34 @@ left: -5%;
 
 /* --------------tablet---------------------------- */
 @media (min-width:600px) and (max-width:1200px){
+    .logo-name{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: none;
+    img{
+        position: relative;
+        top: 6%;
+        width: 50%;
+        left:2px ;
+    }
+
+}
+.menu ul li{
+position: relative;
+left: 4%;
+top: -5px;
+padding: 5px;
+
+}
+.menu ul li a{
+font-size: 13px;
+}
+.menu-b .search{
+    width: 40%;
+    right: 310px;
+    top: -3px;
+}
 .contener-movie .box-movie-title-contener{
   position: relative;
     min-width: 40%;
@@ -244,5 +284,6 @@ left: -5%;
     left: -20%;
     color: white;
 }
+
 
 }

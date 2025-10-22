@@ -120,7 +120,7 @@ const data_c1 = [
 const data_c2 = [
   {
     name: "Ne Zha 2",
-    img: "…", 
+    img: "Ne Zha 2.jpg", 
     time: "4", 
     yer: 2025, 
     reting: 4, 
@@ -129,7 +129,7 @@ const data_c2 = [
   },
   {
     name: "Lilo & Stitch",
-    img: "…", 
+    img: "Lilo & Stitch.jpg", 
     time: "4", 
     yer: 2025, 
     reting: 4, 
@@ -137,10 +137,10 @@ const data_c2 = [
     type: "Action/Adventure"
   },
   {
-    name: "A Minecraft Movie",
-    img: "…", 
+    name: "The Masck",
+    img: "themask.jpg", 
     time: "4", 
-    yer: 2025, 
+    yer: 2013, 
     reting: 4, 
     coalite: "4k", 
     type: "Animation/Family"
@@ -368,7 +368,7 @@ data_c2.map((movie)=>{
     
      <div class="box-movie-title-contener">
             <i id="sv" class="fa-solid fa-bookmark"></i>
-             <img src="${movie.img}" alt="">
+             <img src="../images/${movie.img}" alt="">
              <div class="info-movie">
  
                  <h1 class="name-mobie">${movie.name}</h1> <br>
