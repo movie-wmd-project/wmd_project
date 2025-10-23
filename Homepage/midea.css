@@ -168,6 +168,58 @@ ul{
     }
 }
 
+
+.title{
+    top: 40px;
+    height: 520px;
+    width: 100%;
+    h1{
+        font-size: 25px;
+        width: auto;
+        left: 0%;
+    }
+    .shadow p{
+    width: 100%;
+    left: 0%;
+    }
+   
+
+.login{
+    position: absolute;
+    left: 78%;
+    top: 6%;
+    width: 20%;
+}
+.top{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: 2;
+    height: 70%;
+    left: 0%;
+    background-color: rgba(255, 0, 0, 0);
+   overflow: hidden;
+   color: white;
+   h1{
+    top: 40px;
+   }
+   .box-movie-title{
+    width: 27%;
+    height: 40%;
+    top: 10%;
+    margin-right: 15px;
+    left: 10px;
+    .play{
+        font-size: 26px;
+    }
+    .name-mobie-top{
+        font-size: 14px;
+    }
+}
+
+}
+}
+
 .contener-movie{
     min-height: 350px;
 }
@@ -207,8 +259,63 @@ left: -5%;
 
 
 
+.box-list{
+position: relative;
+display: inline-block;
+width: 35%;
+overflow: hidden;
+height: 200px;
+margin: 20px;
+left: 1px;
+border: none;
+border-radius: 8px;
+img{
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+.info-list{
+    font-size: 14px;
+   bottom: 10px;
+   h1{
+    font-size: 22px;
+   }
+   i{
+    font-size: 18px;
+    top: 26px;
+   }
+}
+}
 
 
+.box-catigory{
+
+    width: 30%;
+    height: 120px;
+    margin: 2px;
+    left: 4px;
+    border-radius: 10px;
+    img{
+        height: auto;
+    }
+    p{
+        position: relative;
+        z-index: 4;
+        top: 55%;
+        left: 15px;
+        color: white;
+    }
+    b{
+        font-size: 16px;
+    }
+    #icon-catigore{
+        font-size: 16px;
+        right: 5px;
+    }
+
+}
 
 
 

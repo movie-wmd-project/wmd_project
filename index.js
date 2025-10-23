@@ -416,8 +416,6 @@ data_c3.map((movie)=>{
 
 })
 
-
-
 //save favorate list
 let sv = document.getElementById("sv")
 let Favorate = document.getElementById("Favorate")

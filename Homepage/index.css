@@ -20,6 +20,7 @@ body{
         opacity: 0;
     }
 }
+/* header */
 nav{
    position: fixed;
     width: 100%;
@@ -29,6 +30,14 @@ nav{
     backdrop-filter: blur(7px);
     z-index: 10;
 }
+nav li{
+    position: relative;
+    display: inline;
+    width: 40%;
+    list-style: none;
+    background-color: none;
+}
+/* button minu */
 #open-menu{
     display: none;
 }
@@ -41,6 +50,7 @@ nav{
     color: red;
  
 }
+/* button sign */
 .minu-sign{
     position: relative;
     background-color: whitesmoke;
@@ -54,6 +64,7 @@ nav{
     color: rgb(5, 5, 5);
  
 }
+/* input search */
 .menu-b .search{
     position: absolute;
     width: 70%;
@@ -71,6 +82,7 @@ nav{
     left: -10%;
     color: white;
 }
+/* logo*/
 .logo-name{
     position: relative;
     width: 30%;
@@ -84,13 +96,7 @@ nav{
     }
 
 }
-nav li{
-    position: relative;
-    display: inline;
-    width: 40%;
-    list-style: none;
-    background-color: none;
-}
+
 .logo-name .namesite{
 position: absolute;
 top: 10px;
@@ -142,6 +148,8 @@ width: 100%;
 }
 
 
+
+
 .title{
     position: relative;
     width: 100%;
@@ -173,7 +181,7 @@ width: 100%;
 }
 
 .title .shadow p, h1{
-width: 40%;
+width: 50%;
 position: relative;
 left: 5%;
 }
