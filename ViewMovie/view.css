@@ -96,14 +96,14 @@ border: solid 0.5px rgba(255, 255, 255, 0.075);
     top: 0%;
     height: auto;
 }
-.photo{
+.movies-video{
     position: relative;
     top: 15px;
     width: 40%;
     height: 100%;
     overflow: hidden;
 
-    img{
+    video{
         width: 100%;
         height: 91%;
     object-fit: cover;
@@ -126,7 +126,7 @@ border: solid 0.5px rgba(255, 255, 255, 0.075);
 .left-tit{
     position: absolute;
     left: 42%;
-    width: 56%;
+    width: 55%;
     top: 15px;
     height: 540px;
     background-color: rgb(0, 0, 0);
@@ -149,17 +149,16 @@ border: solid 0.5px rgba(255, 255, 255, 0.075);
 }
 .par{
     position: relative;
-    bottom: 10%;
     left: 4%;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 
 .list{
     position: relative;
-    bottom: 30%;
     left: 0%;
+    top: 20px;
     width: 95%;
     height: auto;
 }
@@ -172,10 +171,11 @@ width:45%;
 .p2{
     font-size: 15px;
     color: #fff;
+    width: 40%;
 }
 .hs{
     position: relative;
-    top: 10px;
+    top: 30px;
     left: 0%;
     width: 100%;
     height: auto;
@@ -225,17 +225,13 @@ border-right:solid 1px rgba(224, 213, 213, 0.742);
 }
 
 .video {
-position: relative;
-top: 0%;
-left: 70%;
-width: 100px;
-height: 100px;
-background-color: black;
+position: absolute;
+top: 10%;
+left: 50%;
+width: 400px;
+height: 300px;
+background-color: rgba(248, 14, 14, 0);
 border-radius: 15px;
-display: flex;
-align-items: center;
-justify-content:center;
-border: none;
 
 }
 .videoA{
@@ -251,21 +247,25 @@ border: none;
     transform: translateY(-3px) scale(1.02);
 }
 .videowm{
+    overflow: hidden;
+    position: relative;
     top: 0%;
-    width: 400px;
+    height: 80%;
+    width: 100%;
     border-radius: 10px;
+    border: solid 0.5px rgba(255, 0, 0, 0.529);
 
 }
 .trailer{
 position: relative;
-top: 50%;
-left: 72%;
+top: 0%;
+left: 2%;
 width: 20%;
 font-size: 20px;
 }
 .ratA{
     position: relative;
-    bottom: 40%;
+    top: 2%;
     left: 4%;
     width: 25%;
     height: 4%;
@@ -276,47 +276,33 @@ font-size: 20px;
 }
 .img1,.img2,.img3{
     position: relative;
-}
-.img1{
-    width: 30px;
+        width: 30px;
     height: 20px;
     border-right: solid 1px rgba(224, 213, 213, 0.742);
     padding-right: 20px;
 }
-.img2{
-    width: 30px;
-    height: 20px;
-    border-right: solid 1px rgba(224, 213, 213, 0.742);
-    padding-right: 20px;
-}
-.img3{
-    width: 30px;
-    height: 20px;
-    padding-right: 20px;
-}
+
 .top-cast{
     width: 100%;
     min-height: 500px;
     position: relative;
     top: -3%;
     left: 0%;
-    display: flex;
+    display: inline-flex;
+    overflow-x: scroll;
 
 }
 .h-cast{
-    color: #fff;
-    position: absolute;
-    top: -12%;
-    left: 2%;
-    width: 20%;
-    height: auto;
+position: relative;
+color: #fff;
+left: 5px;
 }
 .Cast{
     position: relative;
     min-width: 20%;
     max-width: 20%;
-    max-height: 30%;
-    min-height: 30%;
+    max-height: 20%;
+    min-height: 20%;
     border-radius: 15px;
     border: solid 0.5px rgba(241, 0, 0, 0.442);
     margin: 20px;
