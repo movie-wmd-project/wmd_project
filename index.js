@@ -147,7 +147,7 @@ const data_c2 = [
   },
   {
     name: "Jurassic World Rebirth",
-    img: "…", 
+    img: "Jurassic World Rebirth.jpg", 
     time: "4", 
     yer: 2025, 
     reting: 4, 
@@ -156,7 +156,7 @@ const data_c2 = [
   },
   {
     name: "How to Train Your Dragon (2025)",
-    img: "…", 
+    img: "How to Train Your Dragon (2025).jpg", 
     time: "4", 
     yer: 2025, 
     reting: 4, 
@@ -166,51 +166,15 @@ const data_c2 = [
 
   {
     name: "Superman",
-    img: "…", 
-    time: "4", 
-    yer: 2025, 
-    reting: 4, 
-    coalite: "4k", 
-    type: "Superhero/Action"
-  },
-
-  {
-    name: "F1: The Movie",
-    img: "…", 
-    time: "4", 
-    yer: 2025, 
-    reting: 4, 
-    coalite: "4k", 
-    type: "Sports/Action"
-  },
-  {
-    name: "Captain America: Brave New World",
-    img: "…", 
-    time: "4", 
-    yer: 2025, 
-    reting: 4, 
-    coalite: "4k", 
-    type: "Superhero/Action"
-  },
-  {
-    name: "Sinners",
-    img: "…", 
-    time: "4", 
-    yer: 2025, 
-    reting: 4, 
-    coalite: "4k", 
-    type: "Horror/Thriller"
-  },
- 
-  {
-    name: "Thunderbolts*",
-    img: "…", 
+    img: "Superman.jpg", 
     time: "4", 
     yer: 2025, 
     reting: 4, 
     coalite: "4k", 
     type: "Superhero/Action"
   }
+
+
 ];
 
 
@@ -218,7 +182,7 @@ const data_c2 = [
 const data_c3 = [
   {
     name: "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
-    img: "../images/narnia_lion_witch.jpg",
+    img: "The Chronicles of Narni.jpg",
     time: "2h 23min",
     yer: 2005,
     reting: 4,
@@ -227,7 +191,7 @@ const data_c3 = [
   },
   {
     name: "Willow",
-    img: "../images/willow_1988.jpg",
+    img: "Willow.jpg",
     time: "2h 6min",
     yer: 1988,
     reting: 3,
@@ -236,7 +200,7 @@ const data_c3 = [
   },
   {
     name: "Legend",
-    img: "../images/legend_1985.jpg",
+    img: "Legend.jpg",
     time: "1h 29min",
     yer: 1985,
     reting: 3,
@@ -245,7 +209,7 @@ const data_c3 = [
   },
   {
     name: "Excalibur",
-    img: "../images/excalibur_1981.jpg",
+    img: "Excalibur.webp",
     time: "2h 21min",
     yer: 1981,
     reting: 3,
@@ -254,76 +218,14 @@ const data_c3 = [
   },
   {
     name: "Stardust",
-    img: "../images/stardust_2007.jpg",
+    img: "Stardust.webp",
     time: "2h 8min",
     yer: 2007,
     reting: 4,
     coalite: "4k",
     type: "Romance"
   },
-  {
-    name: "Immortals",
-    img: "../images/immortals_2011.jpg",
-    time: "1h 50min",
-    yer: 2011,
-    reting: 3,
-    coalite: "4k",
-    type: "Epic Fantasy"
-  },
-  {
-    name: "The Green Knight",
-    img: "../images/green_knight_2021.jpg",
-    time: "2h 10min",
-    yer: 2021,
-    reting: 3,
-    coalite: "4k",
-    type: "Mythic Fantasy"
-  },
-  {
-    name: "Dungeons & Dragons: Honor Among Thieves",
-    img: "../images/dungeons_dragons_2023.jpg",
-    time: "2h 5min",
-    yer: 2023,
-    reting: 3,
-    coalite: "4k",
-    type: "Adventure"
-  },
-  {
-    name: "The Hobbit: An Unexpected Journey",
-    img: "../images/hobbit_unexpected.jpg",
-    time: "2h 49min",
-    yer: 2012,
-    reting: 4,
-    coalite: "4k",
-    type: "Adventure"
-  },
-  {
-    name: "The Hobbit: The Desolation of Smaug",
-    img: "../images/hobbit_desolation.jpg",
-    time: "2h 41min",
-    yer: 2013,
-    reting: 4,
-    coalite: "4k",
-    type: "Adventure"
-  },
-  {
-    name: "The Hobbit: The Battle of the Five Armies",
-    img: "../images/hobbit_battle.jpg",
-    time: "2h 24min",
-    yer: 2014,
-    reting: 4,
-    coalite: "4k",
-    type: "Adventure"
-  },
-  {
-    name: "The Chronicles of Narnia: Prince Caspian",
-    img: "../images/narnia_prince_caspian.jpg",
-    time: "2h 32min",
-    yer: 2008,
-    reting: 3,
-    coalite: "4k",
-    type: "Adventure"
-  }
+  
 ];
 
 
@@ -397,7 +299,7 @@ data_c3.map((movie)=>{
     
      <div class="box-movie-title-contener">
                  <i id="sv" class="fa-solid fa-bookmark"></i>
-             <img src="../images/thelord.jpg" alt="">
+             <img src="../images/${movie.img}" alt="">
              <div class="info-movie">
  
                  <h1 class="name-mobie">${movie.name}</h1> <br>
