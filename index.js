@@ -330,3 +330,8 @@ Favorate.style.color="red"
 if(localStorage.getItem("vaforate") === "saved"){
     Favorate.style.color="red"
 }
+
+
+
+
+
