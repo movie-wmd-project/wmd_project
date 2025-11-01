@@ -1,9 +1,9 @@
 let bg_title = document.getElementById("bg-title")
-let image_bg =['../images/thelegent2.png','../images/thelord.jpg','../images/983569.jpg']
+let image_bg =['../images/f1_the_movie2025.jpg','../images/thelord.jpg','../images/983569.jpg']
 setInterval(() => {
 let random = Math.floor(Math.random() * image_bg.length)
 bg_title.src = image_bg[random]
-}, 5000);
+}, 3000);
 
 
 let open_menu = document.getElementById("open-menu")
@@ -23,10 +23,10 @@ console.log(1);
 
 const data_c1 = [
   {
-    name: "One Battle After Another",
-    img: "one_battle_after_another.jpg",
+    name: "Im Te Legend",
+    img: "thelegent2.png",
     time: "2h 41min",
-    yer: 2025,
+    yer: 2007,
     reting: 5,
     coalite: "4k",
     type: "Action/Thriller"
