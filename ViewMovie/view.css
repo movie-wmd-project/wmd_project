@@ -217,6 +217,9 @@ font-size: 20px;
     overflow-x: scroll;
 
 }
+.top-cast::-webkit-scrollbar{
+    display: none;
+}
 .h-cast{
 position: relative;
 color: #fff;
