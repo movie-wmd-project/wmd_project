@@ -112,6 +112,7 @@ display: none;
      cursor: pointer;
      padding: 20px;
      border: none;
+     z-index: 20;
      background-color: rgba(225, 0, 0, 0);
      i{
         font-size: 35px;

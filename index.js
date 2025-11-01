@@ -12,10 +12,8 @@ open_menu.addEventListener("click",function(){
   menu_a.style.display="block"
 })
 
-let b_m_c = document.getElementById("b-m-c")
-b_m_c.addEventListener("click",function(){
+clos_menu.addEventListener("click",function(){
 menu_a.style.display="none"
-console.log(1);
   
 })
 
